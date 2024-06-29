@@ -38,8 +38,8 @@ ELASTIC_PASSWORD="changeme"
 # senha para o usuario kibana_system, no minimo 6 caracteres
 KIBANA_PASSWORD="changeme"
 
-# versão da stack, ex: 8.14.2
-STACK_VERSION=8.14.2
+# versão da stack, ex: 8.14.1
+STACK_VERSION=8.14.1
 
 # nome do cluster
 CLUSTER_NAME=siem-docker
