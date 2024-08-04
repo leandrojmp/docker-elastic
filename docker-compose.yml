@@ -189,7 +189,6 @@ services:
         - /docker/containers:/var/lib/docker/containers:ro
       ports:
         - ${FLEET_PORT}:8220
-      restart: always
       user: root
       environment:
         - FLEET_ENROLL=1
@@ -212,6 +211,7 @@ services:
         
 networks:
   siem:
+    name: docker-lab
     driver: bridge
 
 volumes:
